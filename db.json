@@ -1,0 +1,36 @@
+{
+"POIS": [
+{
+"poid": 1,
+"titulo": "Capela Santa Luzia",
+"lat": -23.560593487039576,
+"long": -46.652336538631864,
+ "address": "Alameda Rio Claro, 40 - Bela Vista, São Paulo - SP",
+"icon": "PinIgreja"
+},
+{
+"poid": 2,
+"titulo": "Taraz",
+"lat": -23.56001325278606,
+"long": -46.65296149328216,
+ "address": "Alameda Rio Claro, 40 - Bela Vista, São Paulo - SP",
+"icon": "PinRestaurante"
+},
+{
+"poid": 3,
+"titulo": "Cidade Matarazzo",
+"lat": -23.560127804856172,
+"long": -46.65299587353124,
+"address": "R. Itapeva, 435 - Bela Vista, São Paulo - SP",
+"icon": "PinMapa"
+},
+{
+"poid": 4,
+"titulo": "Barril Heiniken",
+"lat": -23.5700132,
+"long": -46.66,
+"address": "R. Itapeva, 435 - Bela Vista, São Paulo - SP",
+"icon": "PinMapa"
+}
+]
+}
