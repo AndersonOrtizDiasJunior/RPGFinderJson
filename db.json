@@ -1,36 +1,225 @@
 {
 "POIS": [
-{
-"poid": 1,
-"titulo": "Capela Santa Luzia",
-"lat": -23.560593487039576,
-"long": -46.652336538631864,
- "address": "Alameda Rio Claro, 40 - Bela Vista, São Paulo - SP",
-"icon": "PinIgreja"
-},
-{
-"poid": 2,
-"titulo": "Taraz",
-"lat": -23.56001325278606,
-"long": -46.65296149328216,
- "address": "Alameda Rio Claro, 40 - Bela Vista, São Paulo - SP",
-"icon": "PinRestaurante"
-},
-{
-"poid": 3,
-"titulo": "Cidade Matarazzo",
-"lat": -23.560127804856172,
-"long": -46.65299587353124,
-"address": "R. Itapeva, 435 - Bela Vista, São Paulo - SP",
-"icon": "PinMapa"
-},
-{
-"poid": 4,
-"titulo": "Barril Heiniken",
-"lat": -23.5700132,
-"long": -46.66,
-"address": "R. Itapeva, 435 - Bela Vista, São Paulo - SP",
-"icon": "PinMapa"
-}
+  {
+    "id": 1,
+    "title": "The Lost Treasure",
+    "age": 18,
+    "description": "Embark on an epic quest to find the fabled treasure hidden in the ancient ruins.",
+    "system": "Dungeons & Dragons",
+    "lat": -22.7132,
+    "long": -47.6493,
+    "address": "123 Main Street, Piracicaba, SP, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 2,
+    "title": "The Dark Forest",
+    "age": 25,
+    "description": "Navigate through the mysterious and perilous dark forest filled with mythical creatures.",
+    "system": "Pathfinder",
+    "lat": -22.8176,
+    "long": -47.0716,
+    "address": "456 Elm Avenue, Piracicaba, SP, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 3,
+    "title": "The Forbidden City",
+    "age": 30,
+    "description": "Explore the forbidden city ruled by an evil sorcerer and liberate the enslaved population.",
+    "system": "Shadowrun",
+    "lat": -22.7196,
+    "long": -47.6433,
+    "address": "789 Oak Street, Piracicaba, SP, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 4,
+    "title": "The Haunted Mansion",
+    "age": 21,
+    "description": "Investigate the eerie haunted mansion and uncover its dark secrets.",
+    "system": "Call of Cthulhu",
+    "lat": -22.7739,
+    "long": -47.6449,
+    "address": "101 Chestnut Lane, Piracicaba, SP, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 5,
+    "title": "The Dragon's Lair",
+    "age": 28,
+    "description": "Face off against a mighty dragon in its treacherous lair to save the kingdom.",
+    "system": "Warhammer Fantasy Roleplay",
+    "lat": -22.7819,
+    "long": -47.6474,
+    "address": "222 Pine Street, Campinas, SP, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 6,
+    "title": "The Pirate's Cove",
+    "age": 16,
+    "description": "Join a crew of pirates and sail the high seas in search of buried treasure.",
+    "system": "7th Sea",
+    "lat": -22.8983,
+    "long": -47.0626,
+    "address": "333 Cedar Avenue, Campinas, SP, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 7,
+    "title": "The City of Thieves",
+    "age": 22,
+    "description": "Survive in a lawless city infested with thieves, rogues, and cutthroats.",
+    "system": "RuneQuest",
+    "lat": -22.9183,
+    "long": -47.0646,
+    "address": "444 Maple Road, Campinas, SP, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 8,
+    "title": "The Forgotten Temple",
+    "age": 27,
+    "description": "Uncover the secrets of an ancient temple hidden deep within the jungle.",
+    "system": "GURPS",
+    "lat": -14.2350,
+    "long": -51.9253,
+    "address": "555 Oakwood Drive, Belém, PA, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 9,
+    "title": "The Tower of Sorcery",
+    "age": 19,
+    "description": "Ascend the perilous tower and defeat the powerful sorcerer guarding its pinnacle.",
+    "system": "Mage: The Ascension",
+    "lat": -16.6809,
+    "long": -49.2539,
+    "address": "666 Walnut Lane, Goiânia, GO, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 10,
+    "title": "The Underworld",
+    "age": 24,
+    "description": "Journey through the dangerous underworld and confront its demonic inhabitants.",
+    "system": "World of Darkness",
+    "lat": -20.2990,
+    "long": -40.3003,
+    "address": "777 Birch Street, Vitória, ES, Brazil",
+    "isAvailable": true
+  },
+  {
+    "id": 11,
+    "title": "The Enchanted Forest",
+    "age": 23,
+    "description": "Explore the enchanted forest and interact with magical creatures and beings.",
+    "system": "Fate Core",
+    "lat": 40.7127,
+    "long": -74.0060,
+    "address": "888 Pine Avenue, New York, NY, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 12,
+    "title": "The Space Odyssey",
+    "age": 32,
+    "description": "Embark on an interstellar journey and discover new worlds and civilizations.",
+    "system": "Traveller",
+    "lat": 37.7749,
+    "long": -122.4194,
+    "address": "999 Maple Lane, San Francisco, CA, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 13,
+    "title": "The Labyrinth of Shadows",
+    "age": 26,
+    "description": "Navigate the intricate labyrinth filled with deadly traps and puzzles.",
+    "system": "Numenera",
+    "lat": 40.7590,
+    "long": -111.8766,
+    "address": "111 Elm Street, Salt Lake City, UT, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 14,
+    "title": "The Warzone",
+    "age": 20,
+    "description": "Engage in intense battles and tactical warfare in a war-torn landscape.",
+    "system": "Warhammer 40,000",
+    "lat": 40.7608,
+    "long": -111.8910,
+    "address": "222 Oakwood Drive, Salt Lake City, UT, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 15,
+    "title": "The Forbidden Island",
+    "age": 29,
+    "description": "Survive on a remote and dangerous island teeming with ancient curses and mysteries.",
+    "system": "Savage Worlds",
+    "lat": 40.7640,
+    "long": -111.8975,
+    "address": "333 Pine Street, Salt Lake City, UT, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 16,
+    "title": "The Time Warp",
+    "age": 17,
+    "description": "Travel through time and alter history in this mind-bending adventure.",
+    "system": "Chronicles of Darkness",
+    "lat": 40.7666,
+    "long": -111.8733,
+    "address": "444 Maple Avenue, Salt Lake City, UT, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 17,
+    "title": "The Mystic Academy",
+    "age": 31,
+    "description": "Train in the mystical arts and harness your magical abilities at the renowned academy.",
+    "system": "Ars Magica",
+    "lat": 40.7608,
+    "long": -111.8910,
+    "address": "555 Birch Road, Salt Lake City, UT, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 18,
+    "title": "The Cyberpunk City",
+    "age": 28,
+    "description": "Navigate the gritty and technologically advanced cityscape of a cyberpunk future.",
+    "system": "Cyberpunk 2020",
+    "lat": 33.6844,
+    "long": -117.8265,
+    "address": "666 Oak Avenue, Irvine, CA, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 19,
+    "title": "The Mystic Forest",
+    "age": 21,
+    "description": "Venture into the mysterious forest brimming with magical creatures and hidden treasures.",
+    "system": "The Witcher",
+    "lat": 33.4484,
+    "long": -112.0740,
+    "address": "777 Cedar Street, Phoenix, AZ, USA",
+    "isAvailable": true
+  },
+  {
+    "id": 20,
+    "title": "The Alien Invasion",
+    "age": 18,
+    "description": "Defend Earth against an extraterrestrial invasion threatening the existence of humanity.",
+    "system": "XCOM",
+    "lat": 34.0522,
+    "long": -118.2437,
+    "address": "888 Maple Road, Los Angeles, CA, USA",
+    "isAvailable": true
+  }
 ]
+
 }
